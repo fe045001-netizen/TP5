@@ -12,8 +12,7 @@ public class TestBibliotheque {
 
         Bibliotheque biblio = new Bibliotheque(n);
 
-        // Initialisation avec deux documents
-        biblio.ajouter(new Roman("Les Misérables", "Victor Hugo", 1230, 250.0));
+        biblio.ajouter(new Roman("Les Yeux De Mona", "Thomas Schlesser", 1925, 300.0));
         biblio.ajouter(new Dictionnaire("Larousse", "Français"));
 
         int choix;
